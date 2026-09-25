@@ -1,0 +1,26 @@
+{
+  "name": "typefoundry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "docs": "cd docs && npm run docs:dev",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Zsolt Domotor",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "files": [
+    "dist/types"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts"
+    }
+  }
+}
