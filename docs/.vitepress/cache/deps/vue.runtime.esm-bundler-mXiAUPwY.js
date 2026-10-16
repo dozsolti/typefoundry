@@ -1,4 +1,4 @@
-//#region ../node_modules/@vue/shared/dist/shared.esm-bundler.js
+//#region node_modules/@vue/shared/dist/shared.esm-bundler.js
 /**
 * @vue/shared v3.5.44
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -263,7 +263,7 @@ function normalizeCssVarValue(value) {
 	return String(value);
 }
 //#endregion
-//#region ../node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
+//#region node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
 /**
 * @vue/reactivity v3.5.44
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -1788,7 +1788,7 @@ function traverse(value, depth = Infinity, seen) {
 	return value;
 }
 //#endregion
-//#region ../node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
+//#region node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js
 /**
 * @vue/runtime-core v3.5.44
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -7428,7 +7428,7 @@ var resolveFilter = null;
 var compatUtils = null;
 var DeprecationTypes = null;
 //#endregion
-//#region ../node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
+//#region node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js
 /**
 * @vue/runtime-dom v3.5.44
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -8990,7 +8990,7 @@ var initDirectivesForSSR = () => {
 	}
 };
 //#endregion
-//#region ../node_modules/vue/dist/vue.runtime.esm-bundler.js
+//#region node_modules/vue/dist/vue.runtime.esm-bundler.js
 /**
 * vue v3.5.44
 * (c) 2018-present Yuxi (Evan) You and Vue contributors

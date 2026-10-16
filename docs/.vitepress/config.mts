@@ -5,12 +5,12 @@ export default defineConfig({
   description:
     "Build complex TypeScript types with variants instead of manual unions.",
   cleanUrls: true,
+  base: "/typefoundry/",
   themeConfig: {
     footer: {
       message: "Please leave a star on Github!",
     },
     nav: [
-      { text: "Home", link: "/" },
       { text: "Get started", link: "/getting-started" },
       { text: "Guide", link: "/guide" },
       { text: "API Reference", link: "/api-reference" },
