@@ -64,13 +64,13 @@ type SelectProp =
       selectionMode: "multiple";
       value: string[];
       control: "controlled";
-      onChange: (value: string[]) => void;
+      onChange: (value: string[]) => void; // <- same as value
     }
   | {
       selectionMode: "multiple";
       value: string[];
       control: "uncontrolled";
-      defaultValue: string[];
+      defaultValue: string[]; // <- same as value
     };
 ````
 
